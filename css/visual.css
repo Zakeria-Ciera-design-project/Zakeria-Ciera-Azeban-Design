@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+
+
 h1,h2{
     text-align: center;
+    font-family: 'Abel', sans-serif;
 }
-.navbar{
+
+.body{
+    font-family: 'Anton', sans-serif;
+    background-color: #E6E6E6;
 
 }
+
+.circle {
+    background: red;
+    border-radius: 60%;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#container{
+    margin: 50px;
+    padding: 10px;
+}
+
