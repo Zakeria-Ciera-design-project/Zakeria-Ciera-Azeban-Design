@@ -2,27 +2,94 @@
 
 
 
-h1,h2{
+.header{
     text-align: center;
     font-family: 'Abel', sans-serif;
 }
 
 .body{
     font-family: 'Anton', sans-serif;
-    background-color: #E6E6E6;
-
 }
-
-.circle {
-    background: red;
+div{
+    background-color: #E6E6E6;
+    opacity: 1;
+}
+.circle1 {
+    background: #E6563B;
     border-radius: 60%;
     margin: 40px;
     width: 100px;
     height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+
+
+
+}
+.circle2 {
+    background: #EB9D3A;
+    border-radius: 60%;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+
+
+}
+.circle3 {
+    background: #7CB06C;
+    border-radius: 60%;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.circle4 {
+    background: #00ABA9;
+    border-radius: 60%;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.row{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.box1{
+    padding: 10px;
+    border-color: grey;
+    margin: 10px;
+}
+.box2{
+    padding: 10px;
+}
+.box3{
+    padding: 10px;
+}
+.box4{
+    padding: 10px;
 }
 
-#container{
-    margin: 50px;
-    padding: 10px;
+.comments{
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+}
+
+#logo{
+    width: 105px;
+    height: 105px;
 }
 
