@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
 
-
 .header{
     text-align: center;
     font-family: 'Abel', sans-serif;
@@ -24,10 +23,7 @@ div{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-
-
-
-
+    color: #E6E6E6;
 }
 .circle2 {
     background: #EB9D3A;
@@ -42,7 +38,7 @@ div{
     position: relative;
     top: 10px;
     bottom: 10px;
-
+    color: #E6E6E6;
 
 }
 .circle3 {
@@ -55,6 +51,7 @@ div{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
+    color: #E6E6E6;
 }
 .circle4 {
     background: #00ABA9;
@@ -66,7 +63,7 @@ div{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
-
+    color: #E6E6E6;
 }
 .row{
     margin: 10px;
@@ -103,7 +100,7 @@ div{
     border-radius: 60%;
     padding-top: 4px;
     padding-bottom: 9px;
-    margin: 40px;
+    margin: 10px;
     width: 30px;
     height: 30px;
     font-weight: bold;
@@ -115,7 +112,7 @@ div{
     border-radius: 60%;
     padding-top: 4px;
     padding-bottom: 9px;
-    margin: 40px;
+    margin: 10px;
     width: 30px;
     height: 30px;
     font-weight: bold;
@@ -128,7 +125,7 @@ div{
     border-radius: 60%;
     padding-top: 4px;
     padding-bottom: 9px;
-    margin: 40px;
+    margin: 10px;
     width: 30px;
     height: 30px;
     font-weight: bold;
@@ -141,9 +138,52 @@ div{
     border-radius: 60%;
     padding-top: 4px;
     padding-bottom: 9px;
-    margin: 40px;
+    margin: 10px;
     width: 30px;
     height: 30px;
     font-weight: bold;
     text-align: center;
 }
+section:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    /* enter needed declarations here */
+}
+section:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    /* enter needed declarations here */
+}
+section:nth-of-type(2) h6 {
+    flex-grow: 2;
+}
+section:nth-of-type(3) {
+    display: flex;
+    align-items: center;
+    /* enter needed declarations here */
+}
+section:nth-of-type(3) h6 {
+    flex-grow: 2;
+}
+section:nth-of-type(4) {
+    display: flex;
+    align-items: center;
+    /* enter needed declarations here */
+}
+section:nth-of-type(4) h6 {
+    flex-grow: 2;
+}
+section:nth-of-type(5) {
+    display: flex;
+    align-items: center;
+    /* enter needed declarations here */
+}
+section:nth-of-type(5) h6 {
+    flex-grow: 2;
+}
+.container{
+    background-color: #E6E6E6;
+    margin: 0 auto;
+    width: 40%;
+}
+
