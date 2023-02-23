@@ -17,6 +17,7 @@ div{
 .circle1 {
     background: #E6563B;
     border-radius: 60%;
+    border: 8px solid white;
     margin: 40px;
     width: 100px;
     height: 100px;
@@ -31,6 +32,7 @@ div{
 .circle2 {
     background: #EB9D3A;
     border-radius: 60%;
+    border: 8px solid white;
     margin: 40px;
     width: 100px;
     height: 100px;
@@ -46,6 +48,7 @@ div{
 .circle3 {
     background: #7CB06C;
     border-radius: 60%;
+    border: 8px solid white;
     margin: 40px;
     width: 100px;
     height: 100px;
@@ -56,6 +59,7 @@ div{
 .circle4 {
     background: #00ABA9;
     border-radius: 60%;
+    border: 8px solid white;
     margin: 40px;
     width: 100px;
     height: 100px;
