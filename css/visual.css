@@ -73,8 +73,6 @@ div{
     padding-bottom: 10px;
 }
 .box1{
-    padding: 10px;
-    border-color: grey;
     margin: 10px;
 }
 .box2{
@@ -95,5 +93,57 @@ div{
 #logo{
     width: 105px;
     height: 105px;
+
 }
 
+
+.redcircle{
+    border radius: 60%;
+    background: #E6563B;
+    border-radius: 60%;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    margin: 40px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.orangecircle{
+    background: #EB9D3A;
+    border-radius: 60%;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    margin: 40px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.greencircle{
+    background: #7CB06C;
+    border-radius: 60%;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    margin: 40px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.bluecircle{
+    background: #00ABA9;
+    border-radius: 60%;
+    padding-top: 4px;
+    padding-bottom: 9px;
+    margin: 40px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
